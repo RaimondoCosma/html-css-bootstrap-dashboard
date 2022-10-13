@@ -6,7 +6,7 @@ body {
 }
 img {
     display: block;
-    width: 100%;
+    height: 100%;
 }
 /* ------------------
     UTILITY
@@ -21,8 +21,11 @@ img {
 .ms-height-100 {
     height: 100%;
 }
-.ms-width-100 {
-    width: 100%;
+.ms-height-70 {
+    height: 70%;
+}
+.ms-width-300 {
+    width: 18.75rem;
 }
 
 /* ------------------
@@ -57,5 +60,8 @@ main {
     }
     aside {
         width: 4.375rem;
+    }
+    .ms-width-300 {
+        width: 5.625rem;
     }
 }

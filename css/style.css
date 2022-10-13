@@ -5,7 +5,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 img {
-    height: 100%;
+    display: block;
+    width: 100%;
 }
 /* ------------------
     UTILITY
@@ -20,17 +21,20 @@ img {
 .ms-height-100 {
     height: 100%;
 }
+.ms-width-100 {
+    width: 100%;
+}
 
 /* ------------------
     STRUCTURE
 ------------------ */
 header {
-    height: 4.375rem;
+    height: 8.125rem;
     background-color: var(--ms-first-bg-color);
     border: 1px dashed red; 
 }
 .ms-prime-content {
-    height: calc(100vh - 4.375rem);
+    height: calc(100vh - 8.125rem);
     display: flex;
 }
 aside {
@@ -45,6 +49,12 @@ main {
 }
 
 @media screen and (max-width: 991px) {
+    header {
+        height: 4.375rem;
+    }
+    .ms-prime-content {
+        height: calc(100vh - 4.375rem);
+    }
     aside {
         width: 4.375rem;
     }

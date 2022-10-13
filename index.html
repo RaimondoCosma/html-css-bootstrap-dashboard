@@ -20,8 +20,8 @@
 </head>
 <body>
     <header>
-        <div class="container-fluid row align-items-center ms-height-100">
-            <div class="row flex-nowrap ms-bg-color ms-height-50">
+        <div class="container-fluid row m-auto align-items-center ms-height-100">
+            <div class="row ms-bg-color m-auto ms-height-50">
                 <div class="row align-items-center ms-height-100 ms-width-300">
                     <a class="row align-items-center ms-height-100" href="#">
                         <img class="d-lg-block d-none" src="img/logo.svg" alt="logo">
@@ -32,15 +32,15 @@
                     <span class="input-group-text ms-bg-second-color" id="addon-wrapping"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></span>
                     <input type="text" class="form-control ms-bg-second-color" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search" aria-describedby="addon-wrapping">
                 </div>
-                <div class="col-lg-1">
+                <div class="col-1">
                     <ul class="navbar-nav mb-2 mb-lg-0 row ms-direction-row ms-height-100 align-items-center">
-                        <li class="col-lg-3 nav-item">
+                        <li class="col-lg-3 d-lg-block d-none nav-item">
                           <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-list"></i></a>
                         </li>
-                        <li class="col-lg-3 nav-item">
+                        <li class="col-lg-3 d-lg-block d-none nav-item">
                           <a class="nav-link" href="#"><i class="fa-solid fa-circle-question"></i></a>
                         </li>
-                        <li class="col-lg-3 nav-item">
+                        <li class="col-lg-3 d-lg-block d-none nav-item">
                           <a class="nav-link" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
                         </li>
                         <li class="col-lg-3 nav-item">
@@ -62,7 +62,30 @@
         </div>
     </header>
     <div class="ms-prime-content">
-        <aside></aside>
+        <aside>
+            <div class="ms-column ms-height-100 py-5">
+                <div class="ms-col">
+                    <div class="pb-3 row">
+                        <div class="col-2"><i class="fa-solid fa-house px-3"></i></div>
+                        <span class="col d-lg-block d-none">Home</span>
+                    </div>
+                    <div class="pb-3 row">
+                        <div class="col-2"><i class="fa-solid fa-chart-simple px-3"></i></div>
+                        <span class="col d-lg-block d-none">Stats</span>
+                    </div>
+                    <div class="pb-3 row">
+                        <div class="col-2"><i class="fa-solid fa-signal px-3"></i></div>
+                        <span class="col d-lg-block d-none">Signals</span>
+                    </div>
+                </div>
+                <div class="ms-col mt-auto">
+                    <div class="row">
+                        <div class="col-2"><i class="fa-solid fa-gear px-3"></i></div>
+                        <span class="col d-lg-block d-none">Admin</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
         <main></main>
     </div>
     <!-- Script Bootstrap -->

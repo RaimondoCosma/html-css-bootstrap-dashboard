@@ -33,7 +33,9 @@ a {
 .ms-width-300 {
     width: 18.75rem;
 }
-
+.ms-direction-row {
+    flex-direction: row;
+}
 /* ------------------
     STRUCTURE
 ------------------ */

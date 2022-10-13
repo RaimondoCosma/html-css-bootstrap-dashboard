@@ -34,3 +34,15 @@ main {
     overflow-y: auto;
     background-color: var(--ms-first-bg-color);
 }
+
+@media screen and (max-width: 991px) {
+    header  {
+        height: 4.375rem;
+    }
+    .ms-prime-content {
+        height: calc(100vh - 4.375rem);
+    }
+    aside {
+        width: 4.375rem;
+    }
+}

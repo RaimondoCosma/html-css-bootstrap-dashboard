@@ -24,6 +24,9 @@ a {
 .ms-bg-second-color {
     background-color: #e5e5e5;
 }
+.ms-bg-third-color {
+    background-color: #185bb9;
+}
 .ms-bell-style {
     border: none;
     color: #ff8f00;
@@ -36,6 +39,9 @@ a {
 }
 .ms-width-300 {
     width: 18.75rem;
+}
+.ms-row {
+    display: flex;
 }
 .ms-direction-row {
     flex-direction: row;
@@ -73,6 +79,14 @@ main {
 }
 .ms-col i {
     font-size: 1.25rem;
+}
+
+/* ------------------
+    MAIN   
+------------------ */
+#boolean {
+    background-color: #1c71e8;
+    color: white;
 }
 
 /* ------------------

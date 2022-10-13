@@ -21,13 +21,17 @@
 <body>
     <header>
         <div class="container-fluid row align-items-center ms-height-100">
-            <div class="row ms-bg-color ms-height-70">
-                <div class="row align-items-center ms-height-100">
-                    <a class="row ms-width-300 align-items-center ms-height-100" href="#">
+            <div class="row flex-nowrap ms-bg-color ms-height-50">
+                <div class="row align-items-center ms-height-100 ms-width-300">
+                    <a class="row align-items-center ms-height-100" href="#">
                         <img class="d-lg-block d-none" src="img/logo.svg" alt="logo">
                         <img class="d-lg-none d-block" src="img/mobile-logo.png" alt="mobile-logo">
                     </a>
                 </div>
+                <div class="col input-group flex-nowrap">
+                    <span class="input-group-text ms-bg-second-color" id="addon-wrapping"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></span>
+                    <input type="text" class="form-control ms-bg-second-color" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search" aria-describedby="addon-wrapping">
+                  </div>
             </div>                  
         </div>
     </header>

@@ -28,6 +28,15 @@ a {
     background-position: center;
     margin-right: .3125rem;
 }
+.ms-table-auto {
+    width: auto;
+}
+.ms-table-15 {
+    width: 15%;
+}
+.ms-table-10 {
+    width: 10%;
+}
 /* ------------------
     UTILITY
 ------------------ */
@@ -117,7 +126,9 @@ main {
     background-color: #1c71e8;
     color: white;
 }
-
+#main-part td {
+    font-size: .875rem;
+}
 /* ------------------
     MEDIA-QUERY
 ------------------ */

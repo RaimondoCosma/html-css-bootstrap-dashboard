@@ -42,6 +42,12 @@ a {
 }
 .badge {
     cursor: pointer;
+    margin-right: .25rem;
+    transition: background-color 0.3s linear, transform 0.3s linear;
+}
+.badge:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
 }
 .position-relative {
     position: relative;

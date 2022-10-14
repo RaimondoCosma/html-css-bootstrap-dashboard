@@ -31,11 +31,10 @@ a {
 .ms-table-auto {
     width: auto;
 }
-.ms-table-15 {
-    width: 15%;
-}
-.ms-table-10 {
+.ms-min-width-100 {
+    display: table-cell;
     width: 10%;
+    min-width: 100px;
 }
 /* ------------------
     UTILITY

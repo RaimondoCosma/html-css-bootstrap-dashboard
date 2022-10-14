@@ -1,30 +1,4 @@
 @import 'common.css';
 @import 'utility.css';
-
-/* ------------------
-    ASIDE   
------------------- */
-.ms-column {
-    display: flex;
-    flex-direction: column;
-}
-.ms-col i {
-    font-size: 1.25rem;
-}
-#aside a {
-    transition: background-color 0.3s linear;
-}
-#aside a:hover {
-    background-color: rgba(255, 255, 255, 0.8);
-}
-
-/* ------------------
-    MAIN   
------------------- */
-#boolean {
-    background-color: var(--ms-third-bg-color);
-    color: white;
-}
-#main-part td {
-    font-size: .875rem;
-}
+@import 'aside.css';
+@import 'main.css';

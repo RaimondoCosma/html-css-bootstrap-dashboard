@@ -1,0 +1,16 @@
+/* ------------------
+    ASIDE   
+------------------ */
+.ms-column {
+    display: flex;
+    flex-direction: column;
+}
+.ms-col i {
+    font-size: 1.25rem;
+}
+#aside a {
+    transition: background-color 0.3s linear;
+}
+#aside a:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}

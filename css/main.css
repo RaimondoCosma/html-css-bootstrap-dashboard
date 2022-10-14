@@ -1,0 +1,10 @@
+/* ------------------
+    MAIN   
+------------------ */
+#boolean {
+    background-color: var(--ms-third-bg-color);
+    color: white;
+}
+#main-part td {
+    font-size: .875rem;
+}

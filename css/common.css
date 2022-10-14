@@ -41,6 +41,10 @@ a {
 .ms-logo-mobile {
     max-width: 2.375rem;
 }
+
+/* ------------------
+    ICON BEFORE
+------------------ */
 .ms-boolean-class {
     display: flex;
     align-items: center;
@@ -55,6 +59,10 @@ a {
     background-position: center;
     margin-right: .3125rem;
 }
+
+/* ------------------
+    SIZING
+------------------ */
 .ms-table-auto {
     width: auto;
     min-width: 6.875rem;
@@ -67,6 +75,9 @@ a {
 .ms-min-width-110 {
     min-width: 6.875rem;
 }
+ /* ------------------
+    EFFECT
+------------------ */
 .badge {
     cursor: pointer;
     margin-right: .25rem;
@@ -80,6 +91,10 @@ a {
     box-shadow: none;
     border-color: #e5e5e5;
 }
+
+/* ------------------
+    POSITIONING
+------------------ */
 .position-relative {
     position: relative;
 }

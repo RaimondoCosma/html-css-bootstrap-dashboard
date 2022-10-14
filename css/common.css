@@ -1,0 +1,96 @@
+/* ------------------
+    LAYOUT
+------------------ */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    height: 4.375rem;
+    background-color: var(--ms-first-bg-color);
+}
+
+.ms-prime-content {
+    height: calc(100vh - 4.375rem);
+    display: flex;
+}
+aside {
+    width: auto;
+    flex-shrink: 0;
+    background-color: var(--ms-second-bg-color);
+    background-image: url('../img/sidebar-bg.png');
+    color: white;
+}
+main {
+    flex-grow: 1;
+    overflow-y: auto;
+    background-color: var(--ms-first-bg-color);
+}
+/* ------------------
+    COMMONS
+------------------ */
+img {
+    display: block;
+    max-width: 100%;
+}
+a {
+    color: inherit;
+}
+.ms-logo, .ms-logo-mobile {
+    cursor: pointer;
+}
+.ms-logo-mobile {
+    max-width: 2.375rem;
+}
+.ms-boolean-class {
+    display: flex;
+    align-items: center;
+}
+.ms-boolean-class::before {
+    content: '';
+    height: 1.875rem;
+    width: 1.875rem;
+    display: inline-block;
+    background-image: url('../img/Class-Avatar.png');
+    background-size: cover;
+    background-position: center;
+    margin-right: .3125rem;
+}
+.ms-table-auto {
+    width: auto;
+    min-width: 6.875rem;
+}
+.ms-min-width-100 {
+    display: table-cell;
+    width: 10%;
+    min-width: 6.25rem;
+}
+.ms-min-width-110 {
+    min-width: 6.875rem;
+}
+.badge {
+    cursor: pointer;
+    margin-right: .25rem;
+    transition: background-color 0.3s linear, transform 0.3s linear;
+}
+.badge:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
+.ms-box-s-none:focus {
+    box-shadow: none;
+    border-color: #e5e5e5;
+}
+.position-relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+    top: .625rem;
+    right: 1rem;
+}
+.ms-calendar {
+    position: absolute;
+    right: .625rem;
+    top: 2.625rem;
+    color: grey;
+}

@@ -1,0 +1,50 @@
+/* ------------------
+    UTILITY
+------------------ */
+:root {
+    --ms-first-bg-color: #f8f9fa;
+    --ms-second-bg-color: #061e34;
+    --ms-third-bg-color: #1c71e8;
+}
+.ms-bg-color {
+    background-color: #fff;
+}
+.ms-bg-second-color {
+    background-color: #e5e5e5;
+}
+.ms-bg-third-color {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.ms-bell-style {
+    border: none;
+    color: #ff8f00;
+}
+.ms-width-300 {
+    width: 18.75rem;
+}
+.ms-pr-0 {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.ms-column {
+    display: flex;
+    flex-direction: column;
+}
+.ms-row {
+    display: flex;
+}
+.ms-style-list {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    min-width: 3.125rem;
+}
+#aside .ms-style-list a {
+    text-decoration: none;
+}
+#aside .ms-style-list i {
+    display: block;
+    width: 30px;
+}

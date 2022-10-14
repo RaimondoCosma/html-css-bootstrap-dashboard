@@ -11,6 +11,9 @@ img {
 a {
     color: inherit;
 }
+.ms-logo, .ms-logo-mobile {
+    cursor: pointer;
+}
 .ms-logo-mobile {
     max-width: 2.375rem;
 }
@@ -48,6 +51,10 @@ a {
 .badge:hover {
     background-color: rgba(0, 0, 0, 0.5);
     transform: scale(1.1);
+}
+.ms-box-s-none:focus {
+    box-shadow: none;
+    border-color: #e5e5e5;
 }
 .position-relative {
     position: relative;

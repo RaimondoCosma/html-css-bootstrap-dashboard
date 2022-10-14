@@ -11,6 +11,9 @@ img {
 a {
     color: inherit;
 }
+.ms-logo-mobile {
+    max-width: 2.375rem;
+}
 /* ------------------
     UTILITY
 ------------------ */
@@ -25,41 +28,46 @@ a {
     background-color: #e5e5e5;
 }
 .ms-bg-third-color {
-    background-color: #185bb9;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 .ms-bell-style {
     border: none;
     color: #ff8f00;
 }
-.ms-height-100 {
-    height: 100%;
-}
-.ms-height-50 {
-    height: 50%;
-}
 .ms-width-300 {
     width: 18.75rem;
+}
+.ms-pr-0 {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 .ms-row {
     display: flex;
 }
-.ms-direction-row {
-    flex-direction: row;
+.ms-style-list {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.ms-cool-grow {
+    flex-grow: 1;
 }
 /* ------------------
     STRUCTURE
 ------------------ */
 header {
-    height: 8.125rem;
+    height: 4.375rem;
     background-color: var(--ms-first-bg-color);
-    border: 1px dashed red; 
 }
+
 .ms-prime-content {
-    height: calc(100vh - 8.125rem);
+    height: calc(100vh - 4.375rem);
     display: flex;
 }
 aside {
-    width: 16.875rem;
+    width: auto;
     flex-shrink: 0;
     background-color: var(--ms-second-bg-color);
     color: white;

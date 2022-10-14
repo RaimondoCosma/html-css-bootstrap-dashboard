@@ -152,8 +152,9 @@
                     <div class="row">
                         <!-- main col-8 -->
                         <div class="col-12 col-lg-8 py-3">
-                            <div class="card">
-                                <h5 class="card-header fs-3 pb-3">Prossime calssi</h5>
+                            <div class="card position-relative">  
+                                <h5 class="card-header fs-3 pb-3">Prossime classi</h5>
+                                <div class="text-end absolute"><button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" class="btn btn-outline-primary">+</button></div>
                                 <div class="card-body">
                                     <table class="table table-hover">
                                         <thead>
@@ -294,22 +295,23 @@
                                 </div>                                  
                             </div>
                             <!-- Graph -->
-                            <div class="card" style="width: 18rem;">
-                                <img src="..." class="card-img-top" alt="...">
+                            <div class="border rounded ms-bg-color p-3 mt-3">
+                              <div class="card">
+                                <img src="img/stats.jpeg" class="card-img-top" alt="Stats">
                                 <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <h5 class="card-title">Utenti attivi</h5>
+                                  <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
                                 </div>
                                 <ul class="list-group list-group-flush">
-                                  <li class="list-group-item">An item</li>
-                                  <li class="list-group-item">A second item</li>
-                                  <li class="list-group-item">A third item</li>
+                                  <li class="list-group-item">Gennaio: 1200</li>
+                                  <li class="list-group-item">Febbraio: 800</li>
+                                  <li class="list-group-item">Marzo: 1500</li>
                                 </ul>
                                 <div class="card-body">
-                                  <a href="#" class="card-link">Card link</a>
-                                  <a href="#" class="card-link">Another link</a>
+                                  <a href="#" class="card-link text-primary">Visualizza report approfondito</a>
                                 </div>
                               </div>
+                            </div>
                             <!-- /Graph -->
                         </div>
                         <!-- /main col-4 -->
@@ -318,6 +320,24 @@
             </section>
             <!-- /Main part -->
         </main>
+        <!-- Offcanvas -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasLabel">Aggiungi Classe</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Classe --">
+            </div>
+            <div class="mb-3 position-relative">
+              <label for="formGroupExampleInput2" class="form-label">Data Inizio <i class="ms-calendar fa-solid fa-house col-auto px-3 ms-2 ms-lg-0"></i></label>
+              <input type="date" class="form-control" id="formGroupExampleInput2" placeholder="gg/mm/aaaa">
+            </div>
+          </div>
+        </div>
+        <!-- /Offcanvas -->
         <!-- /Main -->
     </div>
     <!-- Script Bootstrap -->

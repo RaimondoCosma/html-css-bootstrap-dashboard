@@ -14,6 +14,20 @@ a {
 .ms-logo-mobile {
     max-width: 2.375rem;
 }
+.ms-boolean-class {
+    display: flex;
+    align-items: center;
+}
+.ms-boolean-class::before {
+    content: '';
+    height: 1.875rem;
+    width: 1.875rem;
+    display: inline-block;
+    background-image: url('../img/Class-Avatar.png');
+    background-size: cover;
+    background-position: center;
+    margin-right: .3125rem;
+}
 /* ------------------
     UTILITY
 ------------------ */
@@ -76,6 +90,7 @@ aside {
     width: auto;
     flex-shrink: 0;
     background-color: var(--ms-second-bg-color);
+    background-image: url('../img/sidebar-bg.png');
     color: white;
 }
 main {

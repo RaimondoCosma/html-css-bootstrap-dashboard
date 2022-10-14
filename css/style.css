@@ -37,6 +37,9 @@ a {
     width: 10%;
     min-width: 6.25rem;
 }
+.ms-min-width-110 {
+    min-width: 6.875rem;
+}
 .badge {
     cursor: pointer;
 }
@@ -50,7 +53,7 @@ a {
 }
 .ms-calendar {
     position: absolute;
-    right: 0;
+    right: .625rem;
     top: 2.625rem;
     color: grey;
 }

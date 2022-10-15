@@ -80,7 +80,7 @@ a {
 ------------------ */
 .badge {
     cursor: pointer;
-    margin-right: .25rem;
+    margin-right: .5rem;
     transition: background-color 0.3s linear, transform 0.3s linear;
 }
 .badge:hover {

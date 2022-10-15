@@ -14,3 +14,6 @@
 main {
     animation: zoom-in 0.7s ease-out;
 }
+.ms-shake:active {
+    animation: shake 0.5s linear;
+}

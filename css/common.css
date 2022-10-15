@@ -76,7 +76,7 @@ a {
     min-width: 6.875rem;
 }
  /* ------------------
-    EFFECT
+    HOVER-EFFECT
 ------------------ */
 .badge {
     cursor: pointer;
@@ -98,7 +98,7 @@ a {
 .position-relative {
     position: relative;
 }
-.absolute {
+.ms-absolute {
     position: absolute;
     top: .625rem;
     right: 1rem;

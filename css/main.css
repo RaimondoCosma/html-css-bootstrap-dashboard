@@ -8,7 +8,10 @@
 #main-part td {
     font-size: .875rem;
 }
-
+.ms-top-2px {
+    position: relative;
+    top: .125rem;
+}
 /* ------------------
     ANIMATION   
 ------------------ */

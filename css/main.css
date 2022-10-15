@@ -8,3 +8,10 @@
 #main-part td {
     font-size: .875rem;
 }
+
+/* ------------------
+    ANIMATION   
+------------------ */
+main {
+    animation: zoom-in 0.7s ease-out;
+}

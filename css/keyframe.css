@@ -1,0 +1,36 @@
+/* ------------------
+    KEYFRAMES   
+------------------ */
+@keyframes zoom-in {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes from-top {
+    from {
+        transform: translateY(-4.375rem);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes from-left {
+    from {
+        transform: translateX(-8.125rem);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+

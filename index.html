@@ -305,8 +305,10 @@
                             <!-- /Todo section -->
                             <!-- Graph -->
                             <div class="border rounded ms-bg-color p-3 mt-3">
-                              <div class="card">                          
-                                <canvas id="myChart" width="400" height="400"></canvas>
+                              <div class="card">   
+                                <!-- Canvas link -->
+                                <canvas id="myGraph" width="400" height="400"></canvas>
+                                <!-- /Canvas link -->
                                 <div class="card-body">
                                   <h5 class="card-title">Utenti attivi</h5>
                                   <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
@@ -365,8 +367,8 @@
     <!-- /link charjs script -->
     <!-- chart.js script -->
     <script>
-      const ctx = document.getElementById('myChart');
-      const myChart = new Chart(ctx, {
+      const myGraph = document.getElementById('myGraph');
+      const myChart = new Chart(myGraph, {
           type: 'bar',
           data: {
               labels: ['Gennaio', 'Febbraio', 'Marzo', 'Aprile', 'Maggio',],
